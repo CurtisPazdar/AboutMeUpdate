@@ -1,0 +1,68 @@
+/* Setting the background color of the website and establishing that the color should cover in its entirety. */
+body {
+  background-color: rgb(127, 244, 184);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Setting items that appear in the navigation bar to appear on the right hand side */
+ul.navbar-nav {
+  margin-left: auto;
+}
+
+/* Changing the size of all card elements as to get rid of gutters on small size screens */
+@media (max-width: 600px) {
+  .card {
+    position: relative;
+    right: 16px;
+    width: 107%;
+  }
+}
+
+/* Creating the sizing desired for the default About Me/home page image */
+.IndexImage {
+  height: 100%;
+  width: 100%;
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+/* Creating the sizing desired for the default portfolio page images */
+.portfolioImage {
+  width: 100%;
+  height: 70%;
+  object-fit: cover;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* setting the margin for the form input elements */
+.form-group {
+  margin: 15px;
+}
+
+/* setting the positioning and styling for the button  */
+#submit {
+  float: right;
+  background-color: darkslategray;
+  margin-bottom: 15px;
+  margin-right: 15px;
+}
+
+/* Setting addtional positioning to make the footer sticky and styling */
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  color: blanchedalmond;
+  text-align: center;
+  width: 100%;
+  font-size: 12px;
+}
+
+.makeBig {
+  font-size: 24px;
+}
